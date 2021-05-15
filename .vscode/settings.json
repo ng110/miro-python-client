@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.yaml": "home-assistant"
+    },
+    "python.pythonPath": "C:\\Users\\ng110\\Anaconda3\\python.exe"
+}

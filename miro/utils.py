@@ -4,7 +4,7 @@ from requests import Response
 
 from miro.exceptions import *
 from miro.objects.base_miro_object import MiroObjectType
-from miro.objects.widgets import Line, Shape, Widget
+from miro.objects.widgets import Line, Shape, Widget, Text
 
 
 def get_json_or_raise_exception(response: Response) -> dict:
@@ -40,6 +40,7 @@ def get_auth_token_from_env() -> str:
 
 def create_widget_by_type(widget_json) -> Widget:
     widget_type = widget_json['type']
+    print('xxx  ', widget_json)
     if widget_type == MiroObjectType.SHAPE:
         return Shape(obj_id=widget_json['id'],
                      text=widget_json['text'],
@@ -52,5 +53,12 @@ def create_widget_by_type(widget_json) -> Widget:
         return Line(obj_id=widget_json['id'],
                     start_widget_id=widget_json['startWidget']['id'],
                     end_widget_id=widget_json['endWidget']['id'])
+    elif widget_type == MiroObjectType.TEXT:
+        return Text(obj_id=widget_json['id'],
+                    x_pos=widget_json['x'],
+                    y_pos=widget_json['y'],
+                    width=widget_json['width'],
+                    text=widget_json['text'],
+                    rotation=widget_json['rotation'])
     # TODO support texts
     return Widget(obj_id=widget_json['id'])
