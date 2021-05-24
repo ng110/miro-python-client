@@ -30,9 +30,11 @@ class Shape(Widget):
 class Line(Widget):
 
     def __init__(self, obj_id: str,
+                 linetype: str,
                  start_widget_id: str,
                  end_widget_id: str):
         super().__init__(obj_id, MiroObjectType.LINE)
+        self.linetype = linetype
         self.start_widget_id = start_widget_id
         self.end_widget_id = end_widget_id
 

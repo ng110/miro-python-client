@@ -40,7 +40,8 @@ def get_auth_token_from_env() -> str:
 
 def create_widget_by_type(widget_json) -> Widget:
     widget_type = widget_json['type']
-    print('xxx  ', widget_json)
+    if widget_json['type'] == 'line':
+        print('xxx  ', widget_json['id'], widget_json['style']) #973, 944
     if widget_type == MiroObjectType.SHAPE:
         return Shape(obj_id=widget_json['id'],
                      text=widget_json['text'],
@@ -51,6 +52,8 @@ def create_widget_by_type(widget_json) -> Widget:
                      rotation=widget_json['rotation'])
     elif widget_type == MiroObjectType.LINE:
         return Line(obj_id=widget_json['id'],
+#                    linetype='xxx',
+                    linetype=widget_json['style']['lineType'],
                     start_widget_id=widget_json['startWidget']['id'],
                     end_widget_id=widget_json['endWidget']['id'])
     elif widget_type == MiroObjectType.TEXT:

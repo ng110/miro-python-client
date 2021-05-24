@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="directed">
+    <node id="&lt;p&gt;Miro Mind Map&lt;/p&gt;" />
+    <node id="&lt;p&gt;Mind mapping features&lt;/p&gt;" />
+    <node id="&lt;p&gt;Robust collaborative features&lt;/p&gt;" />
+    <node id="&lt;p&gt;Different themes&lt;/p&gt;" />
+    <node id="&lt;p&gt;Multicolored curved&lt;/p&gt;" />
+    <node id="&lt;p&gt;Monochromatic zigzag&lt;/p&gt;" />
+    <node id="&lt;p&gt;Links to anything&lt;/p&gt;" />
+    <node id="&lt;p&gt;Comments&lt;/p&gt;" />
+    <node id="&lt;p&gt;Real-time collaboration&lt;/p&gt;" />
+    <node id="&lt;p&gt;More than a mind map&lt;/p&gt;" />
+    <node id="&lt;p&gt;Add as many mind maps as you want on the board&lt;/p&gt;" />
+    <node id="&lt;p&gt;Plan visually or discuss designs at the same board&lt;/p&gt;" />
+    <node id="&lt;p&gt;Endless canvas&lt;/p&gt;" />
+    <node id="&lt;p&gt;Embed your mind map to external websites&lt;/p&gt;" />
+    <node id="&lt;p&gt;Give pre-made templates a try&lt;/p&gt;" />
+    <edge source="&lt;p&gt;Miro Mind Map&lt;/p&gt;" target="&lt;p&gt;Mind mapping features&lt;/p&gt;" />
+    <edge source="&lt;p&gt;Miro Mind Map&lt;/p&gt;" target="&lt;p&gt;Robust collaborative features&lt;/p&gt;" />
+    <edge source="&lt;p&gt;Miro Mind Map&lt;/p&gt;" target="&lt;p&gt;More than a mind map&lt;/p&gt;" />
+    <edge source="&lt;p&gt;Mind mapping features&lt;/p&gt;" target="&lt;p&gt;Different themes&lt;/p&gt;" />
+    <edge source="&lt;p&gt;Mind mapping features&lt;/p&gt;" target="&lt;p&gt;Links to anything&lt;/p&gt;" />
+    <edge source="&lt;p&gt;Robust collaborative features&lt;/p&gt;" target="&lt;p&gt;Comments&lt;/p&gt;" />
+    <edge source="&lt;p&gt;Robust collaborative features&lt;/p&gt;" target="&lt;p&gt;Real-time collaboration&lt;/p&gt;" />
+    <edge source="&lt;p&gt;Robust collaborative features&lt;/p&gt;" target="&lt;p&gt;Endless canvas&lt;/p&gt;" />
+    <edge source="&lt;p&gt;Different themes&lt;/p&gt;" target="&lt;p&gt;Multicolored curved&lt;/p&gt;" />
+    <edge source="&lt;p&gt;Different themes&lt;/p&gt;" target="&lt;p&gt;Monochromatic zigzag&lt;/p&gt;" />
+    <edge source="&lt;p&gt;More than a mind map&lt;/p&gt;" target="&lt;p&gt;Add as many mind maps as you want on the board&lt;/p&gt;" />
+    <edge source="&lt;p&gt;More than a mind map&lt;/p&gt;" target="&lt;p&gt;Plan visually or discuss designs at the same board&lt;/p&gt;" />
+    <edge source="&lt;p&gt;More than a mind map&lt;/p&gt;" target="&lt;p&gt;Embed your mind map to external websites&lt;/p&gt;" />
+    <edge source="&lt;p&gt;More than a mind map&lt;/p&gt;" target="&lt;p&gt;Give pre-made templates a try&lt;/p&gt;" />
+  </graph>
+</graphml>
